@@ -1,7 +1,13 @@
 {% if site.data.publications %}
 
-<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
-
+<h2 id="publications"
+    style="margin: 35px 0px -15px;
+           color:#000000;
+           font-size:1.3rem;
+           font-family:'Crimson Pro', serif;
+           font-weight:400;">
+  Publications
+</h2>
 <div class="publications">
   <ol class="bibliography">
 
@@ -18,7 +24,7 @@
           {% endif %}
         </div>
         <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-          <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+          <div class="title"><a href="{{ link.pdf }}" style="color:#000000;">{{ link.title }}</a></div>
           <div class="author">{{ link.authors }}</div>
           <div class="periodical"><em>{{ link.conference }}</em>
           </div>
@@ -40,7 +46,7 @@
               style="font-size:12px;">BibTex</a>
             {% endif %}
             {% if link.notes %}
-            <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
+            <strong> <i style="color:#000000">{{ link.notes }}</i></strong>
             {% endif %}
             {% if link.others %}
             {{ link.others }}
@@ -49,7 +55,6 @@
         </div>
       </div>
     </li>
-    <br>
 
     {% endfor %}
 

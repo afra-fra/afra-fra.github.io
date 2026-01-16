@@ -1,17 +1,23 @@
-{% if site.data.services %}
-<h2>Services</h2>
+{% if site.data.services and site.data.services.main %}
 
-{% for group in site.data.services.main %}
 
-<h4 style="margin:0 10px 0;">{{ group[0] }}</h4>
+<h2 class="awards-title"
+    style="font-size: 1.3rem;
+           font-family: 'Crimson Pro', serif;
+           font-weight: 400;
+           color: #000000;">
+  Awards
+</h2>
 
-<ul style="margin:0 0 5px;">
-  {% for position in group[1] %}
-  <li><a href="{{ position.link }}">
-      <autocolor>{{ position.title }}</autocolor>
-    </a></li>
+
+<ul style="margin:0; padding-left:1.4em;">
+  {% for item in site.data.services.main %}
+    <li style="margin:0 0 1.1rem 0;">
+      <strong>{{ item.title }}</strong>
+      {% if item.subtitle %}
+        <div style="margin-top:0.25rem; font-weight:400;">{{ item.subtitle }}</div>
+      {% endif %}
+    </li>
   {% endfor %}
 </ul>
-
-{% endfor %}
 {% endif %}

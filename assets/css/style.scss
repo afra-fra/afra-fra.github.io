@@ -2,3 +2,68 @@
 ---
 
 @import "minimal-light";
+
+h1, h2, h3 {
+  font-family: "Crimson Pro", serif !important;
+}
+
+email, position, autocolor, a {
+  font-family: "Crimson Pro", serif !important;
+  color: #000000;
+}
+
+section h2 {
+  color: #000000;
+  font-family: "Crimson Pro", serif !important;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+
+
+.about-title {
+  font-size: 1.4rem;
+  font-family: "Crimson Pro", serif;
+  font-weight: 400;
+}
+
+header h1 {
+  color: #000000;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.photo-credit {
+  font-size: 0.9rem;
+  color: #666666;
+  margin-top: 0.1rem;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 1.7rem;
+}
+
+.image.avatar img {
+  margin-bottom: -1rem;
+}
+
+email {
+  font-size: 1.05rem;
+}
+
+.advisor-link,
+.advisor-link:visited {
+  color: #4e9cc1;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.advisor-link:hover {
+  text-decoration: underline;
+}
+
+header a:hover {
+  color: #4e9cc1;
+}
+
+
+
