@@ -3,7 +3,7 @@ main:
     authors: <u>Haidan Liu</u>, Poorvi Bhatia, Nicholas Vincent, Parmit K Chilana
     # conference_short: CHI 2026
     conference: CHI 2026
-    pdf: ./assets/files/liu_chi2026_ai_literacy_reddit.pdf
+    pdf: https://arxiv.org/abs/2603.09055
     # pdf: https://arxiv.org/pdf/2306.00988.pdf
     #code: https://github.com/MrGiovanni/ContinualLearning
     #bibtex: https://bib.yliu.me/MICCAI23.txt
