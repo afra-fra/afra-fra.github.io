@@ -1,18 +1,28 @@
 main:
+  - title: "How Creatives Approach GenAI Image Generation: Tensions Between Structured Guidance, Self-Experimentation, and Creative Autonomy"
+    authors: <u>Haidan Liu</u>, Isabelle Kwan, Taiga Okuma, Jeffrey Loverock, Nicholas Vincent, Parmit K Chilana
+    # conference_short: CHI 2026
+    conference: ACM C&C 2026
+    # pdf: https://arxiv.org/abs/2603.09055
+    # pdf: https://arxiv.org/pdf/2306.00988.pdf
+    #code: https://github.com/MrGiovanni/ContinualLearning
+    #bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/peekbox.png
+
   - title: "Tracing Everyday AI Literacy Discussions at Scale: How Online Creative Communities Make Sense of Generative AI"
     authors: <u>Haidan Liu</u>, Poorvi Bhatia, Nicholas Vincent, Parmit K Chilana
     # conference_short: CHI 2026
-    conference: CHI 2026
+    conference: ACM CHI 2026
     pdf: https://arxiv.org/abs/2603.09055
     # pdf: https://arxiv.org/pdf/2306.00988.pdf
     #code: https://github.com/MrGiovanni/ContinualLearning
     #bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/reddit.png
 
-  - title: "Exploring Data Detective Practices as a Class Activity"
-    authors: Ruishan Wu, Zezhong Wang, <u>Haidan Liu</u>, Krithika Balasubramanyam, Kanak Gautam, Aham Gupta, Shannon McAllister, Sheelagh Carpendale
-    conference: Nightingale 2025
-    url: https://nightingaledvs.com/exploring-data-detective-practices-as-a-class-activity/
-    # pdf: https://arxiv.org/pdf/2405.12345.pdf
-    # bibtex: https://bib.yliu.me/ICER24.txt
-    image: ./assets/img/dataDetective.webp
+  # - title: "Exploring Data Detective Practices as a Class Activity"
+  #   authors: Ruishan Wu, Zezhong Wang, <u>Haidan Liu</u>, Krithika Balasubramanyam, Kanak Gautam, Aham Gupta, Shannon McAllister, Sheelagh Carpendale
+  #   conference: Nightingale 2025
+  #   url: https://nightingaledvs.com/exploring-data-detective-practices-as-a-class-activity/
+  #   # pdf: https://arxiv.org/pdf/2405.12345.pdf
+  #   # bibtex: https://bib.yliu.me/ICER24.txt
+  #   image: ./assets/img/dataDetective.webp
