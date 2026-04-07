@@ -70,3 +70,18 @@ body {
   font-size: 17px;
 }
 
+@media print, screen and (min-width: 961px) {
+  .wrapper {
+    width: 1080px;
+  }
+
+  header,
+  footer {
+    width: 220px;
+  }
+
+  section {
+    width: 780px;
+  }
+}
+
