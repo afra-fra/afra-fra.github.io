@@ -51,8 +51,11 @@ email {
 }
 
 .advisor-link,
-.advisor-link:visited {
-  color: #4e9cc1;
+.advisor-link:visited,
+.advisor-link:hover,
+.advisor-link:focus,
+.advisor-link:active {
+  color: #024097;
   font-weight: 500;
   text-decoration: none;
 }
