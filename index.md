@@ -4,7 +4,7 @@ layout: homepage
 
 <h2 class="about-title">About Me</h2>
 
-Hi there! I am a PhD student at <a class="advisor-link" href="https://www.sfu.ca" target="_blank" rel="noopener">Simon Fraser University</a>, supervised by
+Hi there! I am a PhD student at <a class="advisor-link" href="https://www.sfu.ca" target="_blank" rel="noopener">Simon Fraser University</a>, working with
 <a class="advisor-link" href="https://www.cs.sfu.ca/~pchilana/" target="_blank" rel="noopener">Dr. Parmit Chilana</a>
 and
 <a class="advisor-link" href="https://www.nickmvincent.com/" target="_blank" rel="noopener">Dr. Nick Vincent</a>.
