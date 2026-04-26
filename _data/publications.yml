@@ -2,7 +2,7 @@ main:
   - title: "How Creatives Approach GenAI Image Generation: Tensions Between Structured Guidance, Self-Experimentation, and Creative Autonomy"
     authors: <u>Haidan Liu</u>, Isabelle Kwan, Taiga Okuma, Jeffrey Loverock, Nicholas Vincent, Parmit K Chilana
     # conference_short: CHI 2026
-    conference: ACM C&C 2026 (Conditional Accepted)
+    conference: ACM C&C 2026 (Conditionally Accepted)
     # pdf: https://arxiv.org/abs/2603.09055
     # pdf: https://arxiv.org/pdf/2306.00988.pdf
     #code: https://github.com/MrGiovanni/ContinualLearning
