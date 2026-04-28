@@ -97,7 +97,7 @@ blockquote {
 
 .publications ol.bibliography li {
   min-height: 110px;
-  margin-bottom: 0.9rem;
+  margin-bottom: 1.8rem;
 }
 
 .publications ol.bibliography li .abbr {
@@ -217,34 +217,34 @@ blockquote {
 .publications ol.bibliography li .teaser {
   border-radius: 8px;
   box-shadow: 3px 3px 6px #888;
-  height: 123px;
-  width: 270px;
+  height: 130px;
+  width: 300px;
   margin-top: 5px;
   margin-left: 5px;
   margin-bottom: 5px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .arxiv-badge {
-  background-color: #fff4cc !important;
-  color: #393027 !important;
+  background-color: #73b4e9 !important;
+  color: #ffffff !important;
   border: none !important;
-  outline: none !important;
-  box-shadow: none !important;
-  border-radius: 2px !important;
-  padding: 3px 10px;
-  line-height: 1.2;
+  border-radius: 4px !important;
+  padding: 2px 5px;
+  font-size: 15px;
+  font-weight: bold;
   text-decoration: none !important;
   display: inline-block;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
 }
 
 .arxiv-badge:hover,
 .arxiv-badge:focus,
 .arxiv-badge:active {
-  background-color: #ffeeb0 !important;
-  color: #144ea0 !important;
-  border: none !important;
-  outline: none !important;
-  box-shadow: none !important;
+  background-color: #73b4e9 !important;
+  color: #ffffff !important;
   text-decoration: none !important;
+  transform: scale(1.08);
 }
