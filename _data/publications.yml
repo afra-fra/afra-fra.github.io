@@ -13,7 +13,7 @@ main:
     authors: <u>Haidan Liu</u>, Poorvi Bhatia, Nicholas Vincent, Parmit K Chilana
     # conference_short: CHI 2026
     conference: ACM CHI 2026
-    pdf: https://dl-acm-org.proxy.lib.sfu.ca/doi/10.1145/3772318.3791001
+    pdf: https://arxiv.org/abs/2603.09055
     # pdf: https://arxiv.org/pdf/2306.00988.pdf
     #code: https://github.com/MrGiovanni/ContinualLearning
     #bibtex: https://bib.yliu.me/MICCAI23.txt
