@@ -60,36 +60,38 @@
 
         <br>
         <br>
+        
         <div class="social-icons">
         {% if site.google_scholar %}
         <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
-          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
+          <img class="social-icon-image social-icon-scholar" src="{{ '/assets/img/google_scholar.svg' | relative_url }}" alt="Google Scholar">
         </a>  
         {% endif %}
-
+<!-- 
         {% if site.cv_link %}
         <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
           <i class="ai ai-cv" style="font-size:1.3rem;"></i>
         </a>
-        {% endif %}
+        {% endif %} -->
 
-        {% if site.github_link %}
+        <!-- {% if site.github_link %}
         <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
           <i class="fab fa-github"></i>
         </a>
-        {% endif %}
+        {% endif %} -->
 
-        {% if site.linkedin %}
-        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
-          <i class="fab fa-linkedin"></i>
+        {% if site.linkedin_link %}
+        <a style="margin: 0 5px 0 0" href="{{ site.linkedin_link }}">
+          <img class="social-icon-image social-icon-linkedin" src="{{ '/assets/img/linkedin.svg' | relative_url }}" alt="LinkedIn">
         </a>
         {% endif %}
-
+<!-- 
         {% if site.twitter %}
         <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
           <i class="fab fa-x-twitter"></i>
         </a>
-        {% endif %}
+        {% endif %} -->
+        
         </div>
         <br>
 

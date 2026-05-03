@@ -102,3 +102,40 @@ body {
   margin: 0;
 }
 
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  color: black;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon-image {
+  display: block;
+  width: 1.7rem;
+  height: 1.7rem;
+  object-fit: contain;
+}
+
+.social-icon-scholar {
+  width: 1.55rem;
+  height: 1.55rem;
+}
+
+.social-icon-linkedin {
+  width: 1.85rem;
+  height: 1.85rem;
+}
+
+.social-icons a:hover {
+  opacity: 0.75;
+}
