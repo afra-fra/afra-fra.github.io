@@ -53,11 +53,6 @@ blockquote {
   }
 }
 
-#publications {
-  margin-top: 4rem; /* gap before Publications title */
-  margin-bottom: 1rem; /* gap between title and list */
-}
-
 .publications h1 {
   color: var(--global-theme-color);
   font-size: 2rem;
@@ -152,6 +147,12 @@ blockquote {
 .publications ol.bibliography li .links a.btn:hover {
   color: var(--global-theme-color);
   border-color: var(--global-theme-color);
+}
+
+.links {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .arxiv-badge {

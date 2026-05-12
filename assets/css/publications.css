@@ -221,6 +221,12 @@ blockquote {
   object-fit: contain;
 }
 
+.links {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .arxiv-badge {
   background-color: #ffffff !important;
   color: #3a86c5 !important;
