@@ -3,7 +3,7 @@ layout: homepage
 ---
 
 <h2 class="about-title section-heading-with-icon">
-	<img class="section-heading-icon" src="{{ '/assets/img/boat3.PNG' | relative_url }}" alt="" aria-hidden="true">
+	<img class="section-heading-icon" src="{{ '/assets/img/boat3.png' | relative_url }}" alt="" aria-hidden="true">
 	<span>About Me</span>
 </h2>
 
