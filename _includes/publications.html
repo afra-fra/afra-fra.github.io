@@ -1,12 +1,12 @@
 {% if site.data.publications %}
 
-<h2 id="publications"
-    style="margin: 35px 0px -15px;
-           color:#000000;
+<h2 id="publications" class="publications-title section-heading-with-icon"
+    style="color:#000000;
            font-size:1.3rem;
            font-family:'Crimson Pro', serif;
            font-weight:400;">
-  Publications
+  <img class="section-heading-icon" src="{{ '/assets/img/boat2.PNG' | relative_url }}" alt="" aria-hidden="true">
+  <span>Publications</span>
 </h2>
 
 <div class="publications">
@@ -42,7 +42,7 @@
 
             {% if link.pdf %}
             <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0 arxiv-badge" role="button" target="_blank">
-              Link
+              Paper
             </a>
             {% endif %}
 

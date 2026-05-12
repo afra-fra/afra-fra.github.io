@@ -2,7 +2,10 @@
 layout: homepage
 ---
 
-<h2 class="about-title">About Me</h2>
+<h2 class="about-title section-heading-with-icon">
+	<img class="section-heading-icon" src="{{ '/assets/img/boat3.PNG' | relative_url }}" alt="" aria-hidden="true">
+	<span>About Me</span>
+</h2>
 
 Hi there! I am a PhD student at <a class="advisor-link" href="https://www.sfu.ca" target="_blank" rel="noopener">Simon Fraser University</a>, working with
 <a class="advisor-link" href="https://www.cs.sfu.ca/~pchilana/" target="_blank" rel="noopener">Dr. Parmit Chilana</a>
