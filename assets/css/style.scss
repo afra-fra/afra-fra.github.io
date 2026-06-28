@@ -7,7 +7,7 @@ h1, h2, h3 {
   font-family: "Crimson Pro", serif !important;
 }
 
-email, position, autocolor, a {
+autocolor, a {
   font-family: "Crimson Pro", serif !important;
   color: #000000;
 }
@@ -26,6 +26,11 @@ section h2 {
   font-weight: 400;
   margin-top: 2rem;
   margin-bottom: 1rem;
+}
+
+.about-content {
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 .awards-title {
@@ -72,8 +77,12 @@ header h1 {
   margin-top: -1rem;
 }
 
-email {
+.site-email {
   font-size: 1.05rem;
+}
+
+.site-position {
+  font-size: 1.1rem;
 }
 
 .advisor-link,
@@ -81,7 +90,7 @@ email {
 .advisor-link:hover,
 .advisor-link:focus,
 .advisor-link:active {
-  color: #3A86C5;
+  color: #2B6FA8;
   font-weight: 500;
   text-decoration: none;
 }
@@ -91,12 +100,26 @@ email {
 }
 
 header a:hover {
-  color: #3A86C5;
+  color: #2B6FA8;
 }
 
 body {
   padding-top: 100px;
   font-size: 18px;
+}
+
+@media print, screen and (max-width: 480px) {
+  body {
+    padding-top: 48px;
+  }
+
+  .photo-credit {
+    margin-bottom: 1rem;
+  }
+
+  .social-icons {
+    margin-bottom: 12px;
+  }
 }
 
 @media print, screen and (min-width: 961px) {
