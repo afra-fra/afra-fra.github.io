@@ -127,7 +127,7 @@ blockquote {
 
 .publications ol.bibliography li .title {
   color: #000000 !important;
-  font-size: 1.28rem;
+  font-size: 1.12rem;
   font-weight: 700;
   line-height: 1.25;
   margin-bottom: 0.55rem;
@@ -221,8 +221,8 @@ blockquote {
 .pub-link-button,
 .arxiv-badge {
   background-color: #ffffff !important;
-  color: #3D92C7 !important;
-  border: 1px solid #3D92C7 !important;
+  color: #000000 !important;
+  border: 1px solid #000000 !important;
   border-radius: 6px !important;
   padding: 0.05rem 0.42rem 0.12rem !important;
   font-size: 1rem;
@@ -244,8 +244,8 @@ blockquote {
 .arxiv-badge:focus,
 .arxiv-badge:active {
   background-color: #ffffff !important;
-  color: #3D92C7 !important;
-  border-color: #3D92C7 !important;
+  color: #000000 !important;
+  border-color: #000000 !important;
   text-decoration: none !important;
   transform: translateY(-1px);
 }
@@ -257,7 +257,7 @@ blockquote {
   }
 
   .publications ol.bibliography li .title {
-    font-size: 1.12rem;
+    font-size: 1rem;
   }
 
   .publications ol.bibliography li .author,
