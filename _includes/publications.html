@@ -16,8 +16,10 @@
 
     <li>
       <div class="pub-row">
-
         <div class="pub-detail">
+          {% if link.conference %}
+          <div class="pub-venue">{{ link.conference }}</div>
+          {% endif %}
 
           <div class="title">
             <span class="pub-title">{{ link.title }}</span>
@@ -25,20 +27,16 @@
 
           <div class="author">{{ link.authors }}</div>
 
-          <div class="periodical">
-            {{ link.conference }}
-          </div>
-
           <div class="links">
 
             {% if link.pdf %}
-            <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0 arxiv-badge" role="button" target="_blank">
+            <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0 pub-link-button" role="button" target="_blank">
               DOI
             </a>
             {% endif %}
 
             {% if link.url %}
-            <a href="{{ link.url }}" class="btn btn-sm z-depth-0 arxiv-badge" role="button" target="_blank">
+            <a href="{{ link.url }}" class="btn btn-sm z-depth-0 pub-link-button" role="button" target="_blank">
               arXiv
             </a>
             {% endif %}
