@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <title>{{ site.title }} | {{site.affiliation}}</title>
+    <title>{{ site.title }} | {{ site.affiliation }}</title>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,8 +13,51 @@
     {% if site.canonical %}
     <link rel="canonical" href="{{ site.canonical }}"/>
     {% endif %}
+    <meta name="author" content="{{ site.seo_name }} ({{ site.legal_name }})">
+    <meta name="robots" content="index, follow">
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="{{ site.seo_name }} ({{ site.legal_name }}) | {{ site.affiliation }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:url" content="{{ site.canonical }}">
+    <meta property="og:image" content="{{ site.avatar | absolute_url }}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ site.seo_name }} ({{ site.legal_name }}) | {{ site.affiliation }}">
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:image" content="{{ site.avatar | absolute_url }}">
 
     <link rel="icon" href="{{ site.favicon }}" type="image/png" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "{{ site.seo_name }}",
+      "alternateName": ["{{ site.preferred_name }}", "{{ site.legal_name }}"],
+      "url": "{{ site.canonical }}",
+      "image": "{{ site.avatar | absolute_url }}",
+      "email": "mailto:{{ site.email }}",
+      "jobTitle": "{{ site.position }}",
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "{{ site.affiliation }}",
+        "url": "{{ site.affiliation_link }}"
+      },
+      "memberOf": {
+        "@type": "Organization",
+        "name": "{{ site.department }}, {{ site.affiliation }}",
+        "url": "{{ site.affiliation_link }}"
+      },
+      "knowsAbout": [
+        "Human-AI interaction",
+        "AI literacy",
+        "Generative AI",
+        "Human-computer interaction"
+      ],
+      "sameAs": [
+        "{{ site.google_scholar }}",
+        "{{ site.linkedin_link }}"
+      ]
+    }
+    </script>
 
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -33,7 +76,7 @@
       <header>
         
         {% if site.avatar %}
-        <div class="image avatar"><img src="{{ site.avatar }}" alt="Afra" style="border-radius: 50%;" /></div>
+        <div class="image avatar"><img src="{{ site.avatar }}" alt="{{ site.title }}" style="border-radius: 50%;" /></div>
         <div class="photo-credit">Photo credit: Poorvi </div>
         {% endif %}
 
